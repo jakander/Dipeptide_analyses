@@ -6,9 +6,6 @@ import MDAnalysis
 import matplotlib.pyplot as plt
 
 
-
-
-
 def compute_pbc_dist2(r1,r2,box,hbox):
         dist2 = 0
         for j in range(0,3):
